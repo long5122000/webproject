@@ -1,0 +1,295 @@
+@media (max-width: 767px) {
+   
+
+    .header-area .container .contact{
+        display: none;
+    }
+   
+    #slide , #slide .slide-item {
+        height: auto;
+        
+    }
+    nav .container button{
+        margin-left: 350px;
+        margin-top: -80px;
+    }
+
+    #slide .slide-item .slide-content {
+        margin-top: 90px;
+    }
+
+    #slide .slide-item .slide-content h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    #slide .slide-item .slide-content a.btn-service {
+        margin-bottom: 90px;
+    }
+
+    #about {
+        padding: 0px;
+    }
+    
+    #about .container {
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+
+    #about .container ul {
+        flex-direction: column;
+
+    }
+    #about .container ul li img{
+        margin-left: 150px;
+    }
+
+    #about .container ul li {
+        max-width: 100%;
+        width: 100%;
+        min-width: unset;
+        margin-bottom: 25px;
+    }
+
+    #about .container ul li h2 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #001D38;
+        margin-left: 100px;
+    }
+    #about .container ul li p{
+        margin-left: 60px;
+    }
+
+    #service {
+        padding: 0px;
+        margin: 0px;
+        padding-top: 30px;
+    }
+
+    #service .container .service-slider {
+        position: relative;
+        min-height: 270px;
+    }
+
+    #service .container .service-slider a.prev {
+        left: 0px;
+        bottom: 115px;
+    }
+
+    #service .container .service-slider a.next {
+        right: 0px;
+        bottom: 115px;
+    }
+
+    #service .container h2 {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        color: #001D38;
+    }
+    
+    #service .container ul {
+        flex-direction: column;
+    }
+
+    #service .container ul li {
+        width: 100%;
+        margin-right: unset;
+        display: block;
+        max-width: unset;
+        text-align: center;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    #contact-area {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    #contact-area .container {
+        flex-direction: column;
+    }
+
+    
+    #contact-area .container .heading h3 {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 41px;
+    }
+
+    #contact-area .container .heading p {
+        color: #EAEAEA;
+        font-size: 14px;
+        line-height: 28px;
+        margin-bottom: 0;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    #contact-area .container .phone {
+        align-self: center;
+    }
+
+    #contact-area .container .phone a.boxed-btn3 {
+        font-size: 14px;
+        padding: 14px 30px;
+        margin-bottom: 40px;
+        margin-top: 25px;
+    }
+
+    #why-area {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    #why-area .container {
+        flex-direction: column;
+    }
+
+    #why-area .check-list h3 {
+        line-height: 20px;
+        font-size: 30px;
+        padding-top: 30px;
+        padding-left: 30px;
+        margin-left: 60px;
+        font-weight: bold;
+    }
+
+    #why-area .check-list p {
+        padding-left: 30px;
+        max-width: 90%;
+        margin-left: 30px;
+    }
+
+    #why-area .check-list ul {
+        margin-left: 60px;
+    }
+
+    #why-area .check-list .about_btn {
+        padding-top: 20px;
+        margin-left: 120px;
+    }
+
+    #why-area .check-list .boxed-about {
+        margin-left: 20px;
+    }
+
+    #why-area .container .about-image::before {
+        display: none;
+    }
+
+    #why-area .container .check-list {
+        padding: 0px;
+        padding-left: unset;
+    }
+
+    #why-area .container .about-image img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #counter .container {
+        padding: 0px;
+        margin: 0px;
+        background: unset;
+    }
+
+    #counter .container ul {
+        flex-direction: column;
+    }
+
+    #counter .container ul li h3 {
+        margin-bottom: 10px;
+    }
+
+    #counter .container ul li {
+        width: 100%;
+        min-height: 110px;
+    }
+
+    #feedback-area {
+        padding: 0px;
+        margin: 0px;
+        min-height: 200px;
+        width: 100%;
+    }
+
+    #testimonial-area{
+
+        padding: 0;
+        margin: 0;
+        min-height: 510px;
+    }
+
+     #testimonial-area .container{
+        margin-left: 20px;
+        margin-top: 30px;
+        max-height: 450px;
+        max-width: 400px;
+
+     }
+    #testimonial-area .container .feedback{
+        margin-top: -20px;
+    }
+
+    #testimonial-area .container .feedback h3{
+
+         margin-top: -15px;
+     }
+
+    #testimonial-area .container .feedback img{
+        margin-top: -15px;
+    }
+
+    #contact-location .container{
+        margin-top: -45px;
+
+
+    }
+    #contact-location .container .logo-location{
+        margin-top: -50px;
+        text-align: center;
+        
+    }
+    #contact-location .container .logo-location ul{
+        margin-left: 100px;
+    }
+    #contact-location .container  .info-location-1 h3{
+        margin-left: 120px;
+    }
+    #contact-location .container  .info-location-1 p{
+        margin-left: 50px;
+    }
+    #contact-location .container  .info-location-2 p{
+        margin-left: 45px;
+    }
+    #contact-location .container  .info-location-2 h3{
+        margin-left: 120px;
+    }
+
+    
+    #footer{
+        padding: 30px 0px 0px 120px;
+       margin: 0;
+    }
+    #footer .container{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer .container form{
+        margin-left: -120px;
+    }
+    #footer .container h3{
+        margin-top: 20px;
+    }
+    #footer .container p{
+        margin-left: -100px;
+    }
+
+    
+}

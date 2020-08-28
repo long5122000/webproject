@@ -1,0 +1,348 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+	width: 100%;
+	display: block;
+}
+
+
+
+header .header-area {
+	padding: 15px 0;
+	background: #FFF;
+	border-bottom: 1px solid #eaeaea;
+}
+
+header .header-area .container {
+	max-width: 1140px;
+	padding: 0 15px;
+	margin: auto;
+}
+
+header .header-area .container .flex-items {
+	display: flex;
+	align-items: center;
+}
+
+header .header-area .container .flex-items .logo {
+	flex: 3;
+}
+
+header .header-area .container .flex-items .contact .flex-contact {
+	display: flex;
+	align-items: center;
+}
+
+header .header-area .container .flex-items .contact .flex-contact ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+header .header-area .container .flex-items .contact .flex-contact ul li {
+	display: inline-block;
+}
+
+header .header-area .container .flex-items .contact .flex-contact ul li a {
+	text-decoration: none;
+	color: #919191;
+	font-size: 13px;
+	margin-right: 45px;
+}
+
+header .header-area .container .flex-items .contact .flex-contact ul li a i {
+	color: #FF3414;
+    margin-right: 7px;
+}
+
+.contact .flex-contact .get-fress-quote {
+	display: block;
+	text-decoration: none;
+	font-family: "Poppins", sans-serif;
+	border: 1px solid #FF3414;
+	padding: 15px 30px;
+	color: #FF3414;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.contact .flex-contact .get-fress-quote:hover {
+	background: #FF3414;
+	color: #FFF;
+	transition: 0.5s; 
+}
+nav {
+	background-color: white;
+}
+nav .container .navbar-nav .search{
+	background-color:  #FF3414;
+	width: 35px;
+	height: 35px;
+	border: 1px solid #FF3414;
+	border-radius: 50%;
+	line-height: 35px;
+	margin-left: 430px;
+}
+nav .container .navbar-nav .search a{
+	padding-left: 7px; 
+	text-decoration: none;
+	
+}
+nav .container .navbar-nav .search a i{
+	color: white;
+}
+nav ul li{
+	padding-right: 35px;
+}
+nav ul li a{
+	font-size: 20px;
+}
+section .container-fluid{
+	position: relative;
+	background-image: url('./img/banner/intro-about-us.jpg');
+	min-height: 500px;
+	opacity: 0.9;
+	margin-bottom: 100px;
+}
+section .container-fluid:before{
+	content: '';
+	position: absolute;
+	background: black;
+	opacity: 0.7;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+section .container-fluid p{
+	position: relative;
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+	font-size: 60px;
+	font-weight: 400;
+}
+
+#info .container .row h6{
+	color: #FF3414;
+	margin-bottom: 20px;
+}
+#info .container .row h4{
+	margin-bottom: 20px;
+	font-size: 25px;
+}
+#info .container .row p{
+	color: gray;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+#info .container .row ul{
+	list-style-type: none;
+}
+#info .container .row ul li a{
+	line-height: 50px;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+#info .container .row ul li a:hover{
+	color:  #FF3414;
+}
+#info .container .row ul li a i{
+	font-size: 20px;
+	color:  #FF3414;
+	margin-right: 20px;
+}
+#info .container .row ul li img {
+	margin-right: 17px;
+}
+#info .container .row .contact-us{
+	border: 5px groove gray;
+	text-align: center;
+}
+#info .container .row  input{
+    width: 90%;
+    height: 50px;
+    background: #fff;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #000;
+    border: none;
+    border: 1px solid #596672;
+    border-radius: 5px;
+  
+}
+#info .container .row  button{
+	width: 90%;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background: #ff3414;
+    padding: 10px;
+    padding: 0 22px;
+    cursor: pointer;
+    border-radius: 30px;
+  	margin-bottom: 50px;
+    font-size: 13px;
+    font-weight: 500;
+}
+#info .container .row textarea{
+	width: 90%;
+	height: 150px;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+#footer{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: #f8f9fa;
+}
+#footer .container .row .services ul{
+	list-style-type: none;
+}
+#footer .container .row .services ul li a{
+	color: gray;
+	text-decoration: none;
+	line-height: 35px;
+}
+#footer .container .row .services ul li a:hover{
+	color: #FF3414 ;
+}
+#footer .container .row .company ul{
+	list-style-type: none;
+}
+#footer .container .row .company ul li a{
+	color: gray;
+	text-decoration: none;
+	line-height: 35px;
+}
+#footer .container .row .company ul li a:hover{
+	color: #FF3414 ;
+}
+#footer .container .row .industries ul{
+	list-style-type: none;
+}
+#footer .container .row .industries ul li a{
+	color: gray;
+	text-decoration: none;
+	line-height: 35px;
+}
+#footer .container .row .industries ul li a:hover{
+	color: #FF3414 ;
+}
+#footer .container .subscribe form{
+	position: relative;
+	margin-bottom: 20px;
+}
+#footer .container .row .subscribe input{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #000;
+    border: none;
+    border: 1px solid #596672;
+    border-radius: 30px;
+    width: 100%;
+}
+#footer .container .row  .subscribe button{
+	position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background: #ff3414;
+    padding: 10px;
+    padding: 0 22px;
+    cursor: pointer;
+    border-radius: 30px;
+    top: 5px;
+	right: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+#footer .container .row  .subscribe p{
+	line-height: 25px;
+	color: gray;
+	font-size: 15px;
+}
+
+@media (max-width: 767px) {
+   
+	
+   
+   	.header-area .container .contact{
+        display: none;
+    }
+    nav .container button{
+        margin-left: 350px;
+        margin-top: -80px;
+    }
+    
+   
+    
+    #info .container .row .contact-us{
+    	margin-top: 30px;
+    }
+    #contact-location .container{
+        margin-top: -45px;
+
+
+    }
+    #contact-location .container .logo-location{
+        margin-top: -50px;
+        text-align: center;
+        
+    }
+    #contact-location .container .logo-location ul{
+        margin-left: 100px;
+    }
+    #contact-location .container  .info-location-1 h3{
+        margin-left: 120px;
+    }
+    #contact-location .container  .info-location-1 p{
+        margin-left: 50px;
+    }
+    #contact-location .container  .info-location-2 p{
+        margin-left: 45px;
+    }
+    #contact-location .container  .info-location-2 h3{
+        margin-left: 120px;
+    }
+
+    
+    #footer{
+        padding: 30px 0px 0px 120px;
+       margin: 0;
+    }
+    #footer .container{
+        display: flex;
+        flex-direction: column;
+    }
+    #footer .container form{
+        margin-left: -120px;
+    }
+    #footer .container h3{
+        margin-top: 20px;
+    }
+    #footer .container p{
+        margin-left: -100px;
+    }
+    
+    }
+
+
+
